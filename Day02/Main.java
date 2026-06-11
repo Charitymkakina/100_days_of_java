@@ -32,6 +32,9 @@ public class Main {
         book1.checkAvailability();
         book2.checkAvailability();
 
+        book1.rateBook();
+        book2.rateBook();
+
     }
 
 
