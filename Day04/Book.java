@@ -31,16 +31,23 @@ Book(){
     this.publisher="Crown Publishing Group";
     this.publicationYear=2012;
 }
+// To be able to access the private data we use getters.
 public String getName(){
     return name;
 }
-public String getauthor(){
+public String getAuthor(){
     return author;
 }
-public String getpublisher(){
+public String getPublisher(){
     return publisher;
 }
-public int getpublicationYear(){
+public int getPublicationYear(){
     return publicationYear;
+}
+public void displayInfo(){
+    System.out.println("Title: " + name);
+    System.out.println("Author: " + author);
+    System.out.println("Publisher: " + publisher);
+    System.out.println("Year: " + publicationYear);
 }
 }
