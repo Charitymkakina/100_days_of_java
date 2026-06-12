@@ -16,14 +16,14 @@ Book(String name){
 Book(String name, String author){
     this.name= name;
     this.author=author;
-    this.publisher="Longhorn Publishers";
-    this.publicationYear=1996;
+    this.publisher="Zondervan";
+    this.publicationYear=1990;
 }
 Book(String name, String author, String publisher){
     this.name= name;
     this.author=author;
     this.publisher=publisher;
-    this.publicationYear=1996;
+    this.publicationYear=2021;
 }
 Book(){
     this.name="Gone Girl";

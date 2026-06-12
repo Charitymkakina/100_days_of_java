@@ -1,3 +1,3 @@
 # Overloaded Constructors
-Allows a class to have multiple constructors with diffe parameters
-Enables object to be initialized in various ways.
+Allows a class to have multiple constructors with different parameters
+Enables objects to be initialized in various ways.
