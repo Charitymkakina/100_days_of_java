@@ -32,6 +32,9 @@ Book(){
     this.publicationYear=2012;
 }
 // To be able to access the private data we use getters.
+    // Getters provide controlled access to private variables.
+    // Although displayInfo() is used for printing all book details,
+    // getters are still useful when individual values are needed for logic or comparison.
 public String getName(){
     return name;
 }
@@ -44,6 +47,10 @@ public String getPublisher(){
 public int getPublicationYear(){
     return publicationYear;
 }
+
+    // displayInfo() is used to print all book details at once.
+    // This reduces repetitive System.out.println calls in the Main class
+
 public void displayInfo(){
     System.out.println("Title: " + name);
     System.out.println("Author: " + author);
