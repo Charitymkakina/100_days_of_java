@@ -6,9 +6,9 @@ public class Main {
         Biography biography = new Biography();
         CreativeNonFiction creativenonfiction = new CreativeNonFiction();
 
-        mystery.Fantasy();
-        biography.Encourage();
-        creativenonfiction.Encourage();
-        creativenonfiction.Fantasy();
+        mystery.recommendBook();
+        biography.describeBook();
+        creativenonfiction.recommendBook();
+        creativenonfiction.describeBook();
     }
 }

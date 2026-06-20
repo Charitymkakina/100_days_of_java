@@ -4,11 +4,11 @@ public class CreativeNonFiction implements Fiction, NonFiction{ // To acheve mul
 // java allows a class to have multiple interfaces
 
     @Override
-    public void Fantasy(){
-        System.out.println(" * The Fairy Tellers * Reading this book gives a fantasy feel");
+    public void recommendBook(){
+        System.out.println("The Fairy Tellers");
     }
     @Override
-    public void Encourage(){
-        System.out.println(" * The Fairy Tellers * gives a vibe of a non-fiction book ");
+    public void describeBook(){
+        System.out.println("Reading this book gives a fantasy feel and uplifting feel");
     }
 }

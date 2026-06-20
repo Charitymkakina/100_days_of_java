@@ -2,7 +2,7 @@ package Day10;
 
 public class Biography implements NonFiction {
     @Override
-    public void Encourage(){
-        System.out.println(" * The Last Lecture * book its main objective is encouragement");
+    public void describeBook(){
+        System.out.println("NonFiction books are mostly for uplifting");
     }
 }
