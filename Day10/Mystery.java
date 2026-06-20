@@ -5,4 +5,8 @@ public class Mystery implements Fiction {
     public void recommendBook(){
         System.out.println("The Big Mystery");
     }
+    @Override
+    public void describeBook(){
+        System.out.println("This book is really good for fantasy");
+    }
 }
