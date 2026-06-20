@@ -7,9 +7,9 @@ public class Main {
         CreativeNonFiction creativenonfiction = new CreativeNonFiction();
 
         mystery.recommendBook();
-        mystery.describeBook();
+        //mystery.describeBook();
         biography.describeBook();
-        biography.recommendBook();
+        //biography.recommendBook();
         creativenonfiction.recommendBook();
         creativenonfiction.describeBook();
     }
