@@ -14,11 +14,19 @@ public class Main {
         stack.push("In Five Years");
         stack.push("Collide");
         
-         stack.pop(); //Removing an object in the stack however the most top item gets removed. (LIFO).
+         //stack.pop(); //Removing an object in the stack however the most top item gets removed. (LIFO).
 
     //System.out.println(stack.empty()); //To check if the stack is empty.
-    System.out.println(stack); //Printing the objects in the stack.
-    System.out.println(stack.peek());//Checks the most top item on the list
-    System.out.println(stack.search("Meet Me in Another Life")); // Searching for an item in the stack.
-    }
+    //System.out.println(stack); //Printing the objects in the stack.
+    //System.out.println(stack.peek());//Checks the most top item on the list
+    //System.out.println(stack.search("Meet Me in Another Life")); // Searching for an item in the stack.
+
+    for (int i = 1; i <= 10; i++) {
+    stack.push("Book " + i);
+} 
+System.out.println(stack.peek());
+System.out.println(stack);
+System.out.println(stack.size());
+stack.pop();
+}
 }
