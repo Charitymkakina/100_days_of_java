@@ -11,10 +11,26 @@ public class Main {
 
        // linkedList.pop();
 
-       linkedList.offer("Charity");
+       linkedList.offer("Charity"); //queue
        linkedList.offer("Mkakina");
        linkedList.offer("Neema");
        //linkedList.poll();
+
+       linkedList.add(3,"Vanessa"); //Adding elements in the linkedlist
+       linkedList.add(4,"Amani");
+
+       linkedList.remove("Mkakina");
+
+       System.out.println(linkedList.indexOf("Neema")); 
+       System.out.println(linkedList.peekFirst());
+       System.out.println(linkedList.peekLast());
+
+       linkedList.addFirst("Rebecca"); //Adds an element at the beginning of the Linkedlist
+       linkedList.addLast("Sidi"); //Adds an element at the end of the LinkedList.
+
+       String first = linkedList.removeFirst();
+       String last = linkedList.removeLast();
+
         System.out.println(linkedList);
     }
 }
