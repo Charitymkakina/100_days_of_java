@@ -29,7 +29,7 @@ public class Main {
        linkedList.addLast("Sidi"); //Adds an element at the end of the LinkedList.
 
        String first = linkedList.removeFirst();
-       String last = linkedList.removeLast();
+       String last = linkedList.removeLast(); 
 
         System.out.println(linkedList);
     }
