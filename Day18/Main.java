@@ -3,11 +3,14 @@ package Day18;
 public class Main {
     public static void main (String [] args){
         int [] array = {9,1,8,2,7,3,6,4,5}; //Array of integers to search through.
-        int index = LinearSearch(array,5); // Search for the value 5 (can be any value) and store its index
+        int index = LinearSearch(array,10); // Search for the value 5 (can be any value) and store its index
 
         //Check whether the value was found
         if (index != -1){
             System.out.println("Element found at index: " + index);
+        }
+        else {
+            System.out.println("Element not found!");
         }
 
     }
