@@ -1,6 +1,7 @@
 package Day17;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
     public static void main(String []args){
@@ -19,6 +20,7 @@ public class Main {
         //System.err.println(fruits.size());
         //System.out.println(fruits.get(4));
         //System.out.println(fruits); // Displaying the Array
+        Collections.sort(fruits);
         for (String Fruits : fruits){ // used the for enhanced for loop to print the Fruit arraylist
             System.out.println(Fruits);
         }
