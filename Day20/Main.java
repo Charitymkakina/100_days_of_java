@@ -16,7 +16,7 @@ public class Main {
         }
     }
     private static int interpolationSearch(int[]array, int value){
-        int high= array.length-1; // 'low' points to the beginning of the search range.
+        int high= array.length-1; // 'high' points to the end of the search range.
 
         int low = 0; //'low' points to the beginning of the search range.
 
