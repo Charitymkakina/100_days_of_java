@@ -3,9 +3,9 @@ package Day20;
 public class Main {
     public static void main (String []args){
 
-        int [] array = {1,2,3,4,5,6,7,8,9};  // A sorted array is required for Interpolation Search.
+        int [] array = {1,2,4,8,16,32,64,128,256,512,1024};  // A sorted array is required for Interpolation Search.
 
-        int index= interpolationSearch(array,8); // Search for the value 8.
+        int index= interpolationSearch(array,128); // Search for the value 8.
 
         if (index != -1) { //Check whether the value was found
 
