@@ -12,12 +12,12 @@ public class Main {
         for(int i =0; i<array.length-1; i++){
             int min = i;
             for(int j=i+1; j<array.length; j++){
-                if (array[min] > array[j]){
+                if (array[min] > array[j]){ //Update the minimum index if a smaller element is found.
                     min=j;
                 }
 
             }
-            int temp = array[i];
+            int temp = array[i]; //swap the smallest element found with the current position.
             array[i] = array[min];
             array[min]=temp;
         }
