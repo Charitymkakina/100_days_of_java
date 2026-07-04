@@ -2,7 +2,7 @@ package Day25;
 
 public class Main {
     public static void main(String[] args) {
-        int [] array= {8,3,5,3,4,7,6,1};
+        int [] array= {8,3,5,2,4,7,6,1};
         
         mergeSort(array);
         
