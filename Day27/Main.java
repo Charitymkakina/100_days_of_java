@@ -16,7 +16,7 @@ public class Main{
     	table.put(82, "Michelle");
     	table.put(81, "Kalewa");
 
-		table.remove(82);
+		table.remove(82); // removing an element on the hashtable.
 
 		System.out.println(table.get(85)); //accessing an element 
     	  	
