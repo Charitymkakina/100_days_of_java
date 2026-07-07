@@ -17,5 +17,7 @@ public class Main {
         graph.addEdge(4, 2);
 
         graph.print();
+
+        System.out.println(graph.checkEdge(2, 4)); // checks for edge.
     }
 }
