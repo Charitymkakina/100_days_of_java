@@ -58,7 +58,7 @@ public class BinarySearchTree {
     // Recursive method used to traverse the tree.
     private void displayHelper(Node root) {
 
-        if (root != null) {
+        if (root != null) { // Makes the output to be displayed in an ascending order.
 
             // Visit left subtree.
             displayHelper(root.left);
