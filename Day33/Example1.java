@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-// Reading a file in java using the bufferReader and fileReader
+// Reading a file with java using the bufferReader and fileReader
 public class Example1 {
     public static void main(String[] args) {
         String filePath = "C:\\Users\\Admin\\OneDrive\\Desktop\\Text.txt";
