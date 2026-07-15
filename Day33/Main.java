@@ -8,6 +8,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 
+        // a triple set of double quotes is used when their is a multi-line text to be written. 
         String filePath = "test.txt";
         String textContent = """
                 Roses are Red
