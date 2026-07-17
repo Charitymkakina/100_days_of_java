@@ -28,9 +28,9 @@ public class Main {
             System.out.println("Invalid Format!");
         }
         }
-        AlarmClock alarmClock = new AlarmClock(alarmTime, filePath);
+        AlarmClock alarmClock = new AlarmClock(alarmTime, filePath, scanner);
         Thread alarmThread = new Thread(alarmClock);
         alarmThread.start();
-        scanner.close();
+        
     }
 }
