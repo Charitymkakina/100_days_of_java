@@ -1,4 +1,4 @@
-package Day32;
+package Basics.Day32;
 
 public class Main {
       public static void main(String[] args) {
