@@ -1,13 +1,24 @@
 package Day35;
 
 import java.time.LocalTime;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
+
 import java.awt.Toolkit;
+import java.io.File;
+import java.io.IOException;
 
 public class AlarmClock implements Runnable{
     private final LocalTime alarmTime;
+    private final String filePath;
 
-    AlarmClock(LocalTime alarmTime){
+    AlarmClock(LocalTime alarmTime, String filePath){
         this.alarmTime = alarmTime;
+        this.filePath = filePath;
 
     }
     @Override
@@ -27,6 +38,30 @@ public class AlarmClock implements Runnable{
             }
         }
         System.out.println("\n*ALARM NOISES*");
-        Toolkit.getDefaultToolkit().beep();
+        playSound(filePath);
+    }
+    private void playSound(String filePath){
+        File audioFile = new File(filePath);
+
+        
+        try(AudioInputStream audioStream = AudioSystem.getAudioInputStream(audioFile)){
+            Clip clip = AudioSystem.getClip();
+            clip.open(audioStream);
+            clip.start();
+
+            Thread.sleep(5000);
+        }
+        catch(UnsupportedAudioFileException e){
+            System.out.println("Audio file format is not accepted!");
+        }
+        catch(LineUnavailableException e){
+            System.out.println("Audio is unavailable!");
+        }
+        catch(IOException e){
+            System.out.println("Error reading audio file");
+        }
+        catch(InterruptedException e){
+            throw new RuntimeException(e);
+        }
     }
 }
