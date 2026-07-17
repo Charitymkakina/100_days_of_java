@@ -43,6 +43,8 @@ public class AlarmClock implements Runnable{
     private void playSound(String filePath){
         File audioFile = new File(filePath);
 
+        //System.out.println(audioFile.getAbsolutePath());
+        //System.out.println(audioFile.exists());
         
         try(AudioInputStream audioStream = AudioSystem.getAudioInputStream(audioFile)){
             Clip clip = AudioSystem.getClip();

@@ -13,7 +13,7 @@ public class Main {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalTime alarmTime= null;
 
-        String filePath = "AlarmClock.wav";
+        String filePath = "Day35\\AlarmClock.wav";
 
  
         while(alarmTime == null){
