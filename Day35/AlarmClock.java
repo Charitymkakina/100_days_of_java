@@ -1,6 +1,7 @@
 package Day35;
 
 import java.time.LocalTime;
+import java.awt.Toolkit;
 
 public class AlarmClock implements Runnable{
     private final LocalTime alarmTime;
@@ -25,5 +26,7 @@ public class AlarmClock implements Runnable{
                 System.out.println("Thread was interrupted!");
             }
         }
+        System.out.println("\n*ALARM NOISES*");
+        Toolkit.getDefaultToolkit().beep();
     }
 }
