@@ -1,4 +1,4 @@
-package Day10;
+package Basics.Day10;
 
 public class Biography implements NonFiction {
     @Override

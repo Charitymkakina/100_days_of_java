@@ -1,4 +1,4 @@
-package Day24;
+package Basics.Day24;
 
 public class Exercise {
     public static void main(String[] args) {

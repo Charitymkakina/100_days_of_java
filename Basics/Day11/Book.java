@@ -1,4 +1,4 @@
-package Day11;
+package Basics.Day11;
 
 public class Book {
     public void Read(){

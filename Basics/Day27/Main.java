@@ -1,4 +1,4 @@
-package Day27;
+package Basics.Day27;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Day14;
+package Basics.Day14;
 
 import java.util.LinkedList;
 import java.util.Queue;

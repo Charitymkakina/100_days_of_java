@@ -1,4 +1,4 @@
-package Day35;
+package Basics.Day35;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;

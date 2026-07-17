@@ -1,4 +1,4 @@
-package Day13;
+package Basics.Day13;
 //Create a stack of books, push 5 books after every push print currently reading: <top book>
 
 import java.util.Stack;

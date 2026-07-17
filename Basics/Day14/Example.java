@@ -1,4 +1,4 @@
-package Day14;
+package Basics.Day14;
 //Elements are served based on their priority rather than insertion order.
 //when an iteam is added, it is inserted according to its priority.
 

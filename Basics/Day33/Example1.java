@@ -1,4 +1,4 @@
-package Day33;
+package Basics.Day33;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

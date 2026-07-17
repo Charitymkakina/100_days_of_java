@@ -1,4 +1,4 @@
-package Day31;
+package Basics.Day31;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

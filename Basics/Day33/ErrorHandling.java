@@ -1,4 +1,4 @@
-package Day33;
+package Basics.Day33;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Day33;
+package Basics.Day33;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package Day12;
+package Basics.Day12;
 
 public enum Book { //To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma.
    ROMANCE(1), FANTASY(2), SCIFI(3), SELFHELP(4), TRUECRIME(5); // Constants should all be in uppercase.

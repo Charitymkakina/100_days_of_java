@@ -1,4 +1,4 @@
-package Day10;
+package Basics.Day10;
 
 public class CreativeNonFiction implements Fiction, NonFiction{ // To acheve multiple inheritance behaviour,
 // java allows a class to have multiple interfaces

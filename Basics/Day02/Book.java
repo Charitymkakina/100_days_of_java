@@ -1,4 +1,4 @@
-package Day02;
+package Basics.Day02;
 
 public class Book {
     String name;

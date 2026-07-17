@@ -1,4 +1,4 @@
-package Basics.Day04.Day09;
+package Basics.Day09;
 
 public class Novel extends Book{
     @ Override

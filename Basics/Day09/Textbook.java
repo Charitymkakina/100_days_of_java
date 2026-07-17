@@ -1,4 +1,4 @@
-package Day09;
+package Basics.Day09;
 
 public class Textbook extends Book {
     @ Override

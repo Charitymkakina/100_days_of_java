@@ -1,4 +1,4 @@
-package Day28;
+package Basics.Day28;
 
 public class Node {
     char data;

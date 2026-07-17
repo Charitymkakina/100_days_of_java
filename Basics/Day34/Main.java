@@ -1,4 +1,4 @@
-package Day34;
+package Basics.Day34;
 
 public class Main {
     public static void main(String[] args) {

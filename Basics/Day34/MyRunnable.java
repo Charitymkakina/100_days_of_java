@@ -1,4 +1,4 @@
-package Day34;
+package Basics.Day34;
 
 public class MyRunnable implements Runnable{
     private final String text;

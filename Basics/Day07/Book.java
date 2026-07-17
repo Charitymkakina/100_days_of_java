@@ -1,4 +1,4 @@
-package Day07;
+package Basics.Day07;
 
 public class Book {
     protected String title;

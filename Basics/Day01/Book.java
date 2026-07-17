@@ -1,3 +1,5 @@
+package Basics.Day01;
+
 public class Book{
 String title = "Siku Njema";
 String author = "Ken Walibora";
