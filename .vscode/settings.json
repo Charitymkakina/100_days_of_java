@@ -1,6 +1,8 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
-        "src"
+        "src",
+        "Intermediate/Day36/demo/src/main/java/com/example/demo",
+        "demo/src/main/java/com/example/demo"
     ]
 }
