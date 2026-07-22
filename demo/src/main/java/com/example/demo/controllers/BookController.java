@@ -11,7 +11,7 @@ public class BookController {
 public String borrowBook(){
     if (available){
         available = false;
-        return "You have sucessfully borroed the book!";
+        return "You have sucessfully borrowed the book!";
     }
     return "Sorry! The book is currently not available";
 }
