@@ -22,8 +22,8 @@ public class LibraryController {
         authors.add(author1);
         authors.add(author2);
 
-        books.add(new Book(101, "1984", author1));
-        books.add(new Book(102, "Harry Potter", author2));
+        books.add(new Books(101, "1984", author1));
+        books.add(new Books(102, "Harry Potter", author2));
 
     }
 
