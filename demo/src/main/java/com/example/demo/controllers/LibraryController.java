@@ -5,14 +5,13 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
 
-import com.example.libraryapi.models.Author;
-import com.example.libraryapi.models.Book;
-
+import com.example.demo.models.Author;
+import com.example.demo.models.Books;
 @RestController
 @RequestMapping("/library")
 public class LibraryController {
 
-    private List<Book> books = new ArrayList<>();
+    private List<Books> books = new ArrayList<>();
     private List<Author> authors = new ArrayList<>();
 
     public LibraryController() {
