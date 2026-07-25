@@ -28,7 +28,7 @@ public class LibraryController {
     }
 
     @GetMapping("/books")
-    public List<Book> getBooks() {
+    public List<Books> getBooks() {
         return books;
     }
      @GetMapping("/authors")
