@@ -22,7 +22,7 @@ public class BookController {
     }
 
     @PostMapping("/borrow")
-    public String borrow(@RequestParam String book){
+    public String borrowBook(@RequestParam String book){
 
         if(available){
             available = false;
