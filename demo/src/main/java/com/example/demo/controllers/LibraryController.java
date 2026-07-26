@@ -1,5 +1,6 @@
 package com.example.demo.controllers;
 
+import com.example.demo.services.LibraryService;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,11 +11,12 @@ import com.example.demo.models.Books;
 @RestController
 @RequestMapping("/library")
 public class LibraryController {
-
+    private final com.example.demo.services.LibraryService libraryService;
     private List<Books> books = new ArrayList<>();
     private List<Author> authors = new ArrayList<>();
 
-    public LibraryController() {
+    public LibraryController(LibraryService libraryService) {
+        this.libraryService = libraryService;
 
         Author author1 = new Author(1, "George Orwell");
         Author author2 = new Author(2, "J.K. Rowling");
@@ -39,7 +41,7 @@ public class LibraryController {
     @PostMapping("/borrow")
     public String borrowBook(@RequestParam String title) {
 
-        return "You have borrowed \"" + title + "\"";
+        return libraryService.borrowBook(title);
     }
 
     @PutMapping("/return")
