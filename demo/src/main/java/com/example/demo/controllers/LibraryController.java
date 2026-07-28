@@ -39,10 +39,11 @@ public class LibraryController {
     }
 
     @PostMapping("/borrow")
-    public String borrowBook(@RequestParam String title) {
+public String borrowBook(@RequestParam String title){
 
-        return libraryService.borrowBook(title);
-    }
+    return libraryService.borrowBook(title);
+
+}
 
     @PutMapping("/return")
     public String returnBook(@RequestParam String title) {
