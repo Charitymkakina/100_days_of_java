@@ -2,14 +2,17 @@ package com.Mkakina.myApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class MyAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyAppApplication.class, args); //container
+		
 
-		Dev dev = new Dev();
+		ApplicationContext context= SpringApplication.run(MyAppApplication.class, args); //container
+
+		Dev dev = context.getBean(Dev.class);
 
 		dev.build();
 	}
