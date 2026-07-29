@@ -9,7 +9,7 @@ import com.example.demo.models.Author;
 import com.example.demo.models.Books;
 
 @Service
-public class LibraryService {
+public class LibraryService { // Spring is in control
 
     private List<Books> books = new ArrayList<>();
     private List<Author> authors = new ArrayList<>();

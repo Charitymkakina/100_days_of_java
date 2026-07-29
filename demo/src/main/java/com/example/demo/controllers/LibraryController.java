@@ -18,14 +18,7 @@ public class LibraryController {
     public LibraryController(LibraryService libraryService) {
         this.libraryService = libraryService;
 
-        Author author1 = new Author(1, "George Orwell");
-        Author author2 = new Author(2, "J.K. Rowling");
-
-        authors.add(author1);
-        authors.add(author2);
-
-        books.add(new Books(101, "1984", author1));
-        books.add(new Books(102, "Harry Potter", author2));
+        
 
     }
 
