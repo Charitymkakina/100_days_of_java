@@ -1,6 +1,7 @@
 package com.Mkakina.myApp;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component // Shows this is the class i want to manage
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Component;
 public class Dev { //Managed bean therfore creates an object for you in the container
 
    @Autowired // connecting dev and laptop. (Field Injection)
+   @Qualifier("desktop")
     private Computer comp;
 
     // public Dev(Laptop laptop){ // Constructor Injection
