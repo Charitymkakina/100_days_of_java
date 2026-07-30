@@ -7,9 +7,16 @@ import org.springframework.stereotype.Component;
 
 public class Dev { //Managed bean therfore creates an object for you in the container
 
-    @Autowired // connecting dev and laptop.
+   // @Autowired // connecting dev and laptop. (Field Injection)
     private Laptop laptop;
 
+    // public Dev(Laptop laptop){ // Constructor Injection
+       // this.laptop = laptop;
+    //}    
+        @Autowired
+         public void setLaptop(Laptop laptop){
+            this.laptop = laptop;
+         }
     public void build(){
 
         laptop.compile();
