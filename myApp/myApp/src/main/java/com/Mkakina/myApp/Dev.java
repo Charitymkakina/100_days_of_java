@@ -14,7 +14,7 @@ public class Dev { //Managed bean therfore creates an object for you in the cont
        // this.laptop = laptop;
     //}    
         @Autowired
-         public void setLaptop(Laptop laptop){
+         public void setLaptop(Laptop laptop){ // setter injection
             this.laptop = laptop;
          }
     public void build(){
