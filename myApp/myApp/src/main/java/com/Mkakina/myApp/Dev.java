@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 public class Dev { //Managed bean therfore creates an object for you in the container
 
     private Laptop laptop;
+    
     public void build(){
 
         laptop.compile();
