@@ -12,6 +12,7 @@ public class Dev {
 
     public Dev (int age){
         this.age = age;
+        System.out.println("Constructor injection "); //parameterlized constructor
     }
 
     public int getAge(){
