@@ -4,10 +4,18 @@ public class Dev {
 
   //  private Laptop laptop;
 
-    int age = 23;
+   private int age; // to access this private variable we use a setter or a getter.
 
     public Dev(){
         System.out.println("Dev Constructor");
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
     }
 
     public void build (){
