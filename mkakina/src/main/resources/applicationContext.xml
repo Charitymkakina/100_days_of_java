@@ -6,7 +6,11 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="dev" class="demo.Dev"/>
-    <bean id="laptop" class="demo.Laptop"/>
+    <bean id="dev" class="demo.Dev">
+        <property name = "age" value = "16"/>
+    </bean>
+
+    <bean id="laptop" class="demo.Laptop">
+    </bean>
 
 </beans>

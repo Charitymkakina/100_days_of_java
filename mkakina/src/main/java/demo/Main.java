@@ -8,7 +8,7 @@ try (ClassPathXmlApplicationContext context =
         new ClassPathXmlApplicationContext("applicationContext.xml")) { //Xml configuration
 
     Dev dev = context.getBean(Dev.class);
-    dev.setAge(25);
+    //dev.setAge(25);
     System.out.println(dev.getAge());
     //dev.build();
 }
