@@ -7,7 +7,8 @@
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="dev" class="demo.Dev">
-        <property name = "age" value = "16"/>
+  <!--  setter injection <property name = "age" value = "16"/> --> 
+        <constructor-arg value = "23" />
     </bean>
 
     <bean id="laptop" class="demo.Laptop">
