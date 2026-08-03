@@ -4,7 +4,7 @@ public class Dev {
 
   //  private Laptop laptop;
 
-    int age;
+    int age = 23;
 
     public Dev(){
         System.out.println("Dev Constructor");
