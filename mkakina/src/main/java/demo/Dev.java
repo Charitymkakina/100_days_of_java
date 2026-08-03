@@ -2,7 +2,11 @@ package demo;
 
 public class Dev {
 
-  //  private Laptop laptop;
+    private Laptop laptop;
+
+    public void setLaptop(Laptop laptop){
+        this.laptop= laptop;
+    }
 
    private int age; // to access this private variable we use a setter or a getter.
 
@@ -24,7 +28,8 @@ public class Dev {
     }
 
     public void build (){
+        laptop.compile();
         System.out.println("Using spring without boot");
     }
-  //  laptop.compile();
+  
 }

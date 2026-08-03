@@ -9,8 +9,8 @@ try (ClassPathXmlApplicationContext context =
 
     Dev dev = context.getBean(Dev.class);
     //dev.setAge(25);
-    System.out.println(dev.getAge());
-    //dev.build();
+   // System.out.println(dev.getAge());
+    dev.build();
 }
     }
 }
