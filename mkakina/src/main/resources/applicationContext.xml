@@ -7,7 +7,6 @@
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="dev" class="demo.Dev"/>
-    <bean id="dev 1" class="demo.Dev"/>
     <bean id="laptop" class="demo.Laptop"/>
 
 </beans>

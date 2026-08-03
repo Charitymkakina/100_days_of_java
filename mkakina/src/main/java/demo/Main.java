@@ -7,8 +7,9 @@ public class Main {
 try (ClassPathXmlApplicationContext context =
         new ClassPathXmlApplicationContext("applicationContext.xml")) { //Xml configuration
 
-   // Dev dev = context.getBean(Dev.class);
-    // dev.build();
+    Dev dev = context.getBean(Dev.class);
+    System.out.println(dev.age);
+    dev.build();
 }
     }
 }
