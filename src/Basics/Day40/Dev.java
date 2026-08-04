@@ -4,7 +4,10 @@ public class Dev {
     private Laptop laptop;
 // private Laptop laptop = new Laptop(); // we have created the laptop object
    
-   public void setLaptop(Laptop laptop){
+   //public void setLaptop(Laptop laptop){
+    //this.laptop = laptop;
+   //}
+   public Dev(Laptop laptop){
     this.laptop = laptop;
    }
     

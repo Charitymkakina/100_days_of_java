@@ -5,9 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
         Laptop laptop = new Laptop();
-        Dev dev = new Dev();
+       // Dev dev = new Dev();
+       Dev dev = new Dev(laptop); //Constructor injection.
 
-        dev.setLaptop(laptop); 
+       // dev.setLaptop(laptop); 
         //laptop.compile();
         dev.build();
     }
