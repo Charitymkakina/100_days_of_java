@@ -5,6 +5,7 @@ public class Main {
 
         Dev dev = new Dev();
 
+        laptop.compile();
         dev.build();
     }
 }

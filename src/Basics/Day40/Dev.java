@@ -1,10 +1,10 @@
 package Basics.Day40;
 
 public class Dev {
-   private Laptop laptop = new Laptop();
+   private Laptop laptop = new Laptop(); // we have created the laptop object
    
    public void build(){
-    laptop.compile();
-    System.out.println("Compiling using Laptop");
+    laptop.compile(); // we have called the laptop 
+    System.out.println("Building Java Projects");
    }
 }
