@@ -6,14 +6,17 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="dev" class="demo.Dev" autowire = "byName">
+    
+
+    <bean id="laptop" class="demo.Laptop"> 
+    </bean>
+
+    <bean id="dev" class="demo.Dev">
+        <constructor-arg ref="laptop"/>
      <!-- <property name = "computer" ref = "laptop"/> -->
     </bean>
 
-    <bean id="computer" class="demo.Laptop"> 
-    </bean>
-
-    <bean id="computer1" class="demo.Desktop"> 
-    </bean>
+   <!-- <bean id="computer1" class="demo.Desktop"> -->
+    <!--</bean> -->
 
 </beans>

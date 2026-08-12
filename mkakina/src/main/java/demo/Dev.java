@@ -4,10 +4,11 @@ public class Dev {
 
     private Computer computer;
 
-    public void setComputer(Computer computer){
-        this.computer= computer;
-    }
-     public Dev(){
+   // public void setComputer(Computer computer){
+       // this.computer= computer;
+    
+     public Dev(Computer computer){
+        this.computer = computer;
         System.out.println("Dev Constructor");
     }
     public void build (){
