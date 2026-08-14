@@ -12,4 +12,8 @@ public class HomeController {
     public String greet(){
         return "Welcome to my Web App building journey";
     }
+    @RequestMapping ("/About")
+    public String About(){
+        return "I am building my Web App step by step" ;
+    }
 }
