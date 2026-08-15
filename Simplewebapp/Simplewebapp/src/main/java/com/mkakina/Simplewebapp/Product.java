@@ -1,6 +1,11 @@
 package com.mkakina.Simplewebapp;
 
+import lombok.Data;
+
+@Data
 public class Product {
     private int proId;
-    private String Product;
+    private String prodName;
+    private int price;
+
 }
