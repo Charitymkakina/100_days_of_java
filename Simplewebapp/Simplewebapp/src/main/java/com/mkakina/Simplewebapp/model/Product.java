@@ -1,4 +1,4 @@
-package com.mkakina.Simplewebapp;
+package com.mkakina.Simplewebapp.model;
 
 import lombok.Data;
 
