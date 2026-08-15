@@ -1,4 +1,4 @@
-package com.mkakina.Simplewebapp;
+package com.mkakina.Simplewebapp.contoller;
 
 //import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
